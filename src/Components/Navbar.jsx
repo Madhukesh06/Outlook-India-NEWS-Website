@@ -1,13 +1,16 @@
 import React from 'react'
 import '../App.css'
+import { Link } from "react-router-dom";
 export default function Navbar() {
     return (
         <>
             <div className="container mb-4">
                 <img src="https://www.outlookindia.com/images/home_new_v4/logo_outlook.svg" alt="Outlook logo" />
+                <br />
+                <Link to="/signin"> SIGNIN </Link> {"|"} <Link to="/signup"> SIGNUP </Link>
             </div>
 
-            <nav className="navbar navbar-expand-lg navbar sticky-top bb-3 ">
+            <nav className="navbar navbar-expand-lg navbar sticky-top bb-3 " style={{ backgroundColor: "white" }}>
 
                 <div className="container-fluid">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
