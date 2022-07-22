@@ -46,7 +46,7 @@ export default function Login() {
                 className="container"
                 style={{
                     width: "40rem",
-                    border: "1px solid red",
+                    // border: "1px solid red",
                     padding: "1rem",
                 }}
             >
