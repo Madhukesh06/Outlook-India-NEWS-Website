@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "./Navbar";
 import { useNavigate } from "react-router-dom";
+import Footer from "./Footer";
 export default function Signup() {
     let navigate = useNavigate();
     const [data, setData] = useState([]);
@@ -89,6 +90,7 @@ export default function Signup() {
                     </button>
                 </form>
             </div>
+            <Footer />
         </>
     );
 }

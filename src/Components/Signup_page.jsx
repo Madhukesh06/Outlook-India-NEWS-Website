@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar";
 import { useNavigate } from "react-router-dom";
+import Footer from "./Footer";
 export default function Login() {
     const [name, setName] = useState([]);
     const [email, setEmail] = useState([]);
@@ -101,6 +102,7 @@ export default function Login() {
                     </button>
                 </form>
             </div>
+            <Footer />
         </>
     );
 }
