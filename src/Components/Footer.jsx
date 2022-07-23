@@ -1,10 +1,12 @@
 import React from 'react'
 import Navbar from './Navbar'
 import { Link } from "react-router-dom";
+import '../App.css'
 export default function Footer() {
+
     return (
         <div>
-            <div class="relative-bottom">
+            <div className="relative-bottom"  >
                 {/* <!-- Footer --> */}
                 <footer style={{ backgroundColor: "#212020" }}>
 
@@ -18,46 +20,35 @@ export default function Footer() {
                         <div className="col-md-3 ">
 
                             {/* <!-- Links --> */}
-                            <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+                            <p className="font-weight-bold text-uppercase mt-3 mb-4" style={{ color: "white" }}>Main Stories</p>
 
-                            <ul className="list-unstyled">
-                                <li>
-                                    <a href="#!">Very long link 1</a>
+                            <ul className="list-unstyled"  >
+                                <li >
+                                    <Link to="#!">Magazine</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">Very long link 2</a>
+                                    <Link to="#!">NATIONAL</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">Very long link 3</a>
+                                    <Link to="#!">INTERNATIONAL</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">Very long link 4</a>
-                                </li>
-                            </ul>
-
-                        </div>
-                        {/* <!-- Grid column --> */}
-
-                        {/* <hr className="clearfix w-100 d-md-none" /> */}
-
-                        {/* <!-- Grid column --> */}
-                        <div className="col-md-2 ">
-
-                            {/* <!-- Links --> */}
-                            <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-                            <ul className="list-unstyled">
-                                <li>
-                                    <a href="#!">Link 1</a>
+                                    <Link to="#!">BUSINESS</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">Link 2</a>
+                                    <Link to="#!">OPINIONS</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">Link 3</a>
+                                    <Link to="#!">BOOK REVIEWS</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">Link 4</a>
+                                    <Link to="#!">THE NEWS</Link>
+                                </li>
+                                <li>
+                                    <Link to="#!">SPORTS</Link>
+                                </li>
+                                <li>
+                                    <Link to="#!">ART & ENTERTAINMENT</Link>
                                 </li>
                             </ul>
 
@@ -70,20 +61,26 @@ export default function Footer() {
                         <div className="col-md-2 ">
 
                             {/* <!-- Links --> */}
-                            <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+                            <p className="font-weight-bold text-uppercase mt-3 mb-4" style={{ color: "white" }}>Traveller</p>
 
                             <ul className="list-unstyled">
                                 <li>
-                                    <a href="#!">Link 1</a>
+                                    <Link to="#!">TRAVELOGUES</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">Link 2</a>
+                                    <Link to="#!">WEEKEND BREAKS</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">Link 3</a>
+                                    <Link to="#!">HOLIDAYS WITH OT</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">Link 4</a>
+                                    <Link to="#!">PHOTO FEATURES</Link>
+                                </li>
+                                <li>
+                                    <Link to="#!">HOTELS</Link>
+                                </li>
+                                <li>
+                                    <Link to="#!">GUIDEBOOKS</Link>
                                 </li>
                             </ul>
 
@@ -96,20 +93,65 @@ export default function Footer() {
                         <div className="col-md-2 ">
 
                             {/* <!-- Links --> */}
-                            <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+                            <p className="font-weight-bold text-uppercase mt-3 mb-4" style={{ color: "white" }}>Money
+                            </p>
 
                             <ul className="list-unstyled">
                                 <li>
-                                    <a href="#!">Link 1</a>
+                                    <Link to="#!">Mutual Funds</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">Link 2</a>
+                                    <Link to="#!">Insurance</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">Link 3</a>
+                                    <Link to="#!">Equity</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">Link 4</a>
+                                    <Link to="#!">Fixed Assets</Link>
+                                </li>
+                                <li>
+                                    <Link to="#!">Banking</Link>
+                                </li>
+                                <li>
+                                    <Link to="#!">ASK</Link>
+                                </li>
+                            </ul>
+
+                        </div>
+                        {/* <!-- Grid column --> */}
+
+                        {/* <hr className="clearfix w-100 d-md-none" /> */}
+
+                        {/* <!-- Grid column --> */}
+                        <div className="col-md-2 ">
+
+                            {/* <!-- Links --> */}
+                            <p className="font-weight-bold text-uppercase mt-3 mb-4" style={{ color: "white" }}>Business</p>
+
+                            <ul className="list-unstyled">
+                                <li>
+                                    <Link to="#!">THE BIG STORY</Link>
+                                </li>
+                                <li>
+                                    <Link to="#!">SPECIALS</Link>
+                                </li>
+                                <li>
+                                    <Link to="#!">PERSPECTIVE</Link>
+                                </li>
+                                <li>
+                                    <Link to="#!">PIXSTORY</Link>
+                                </li>
+                                <li>
+                                    <Link to="#!">ENTERPRISE</Link>
+                                </li>
+                                <li>
+                                    <Link to="#!">STRATEGY</Link>
+                                </li>
+                                <li>
+                                    <Link to="#!">MARKETS</Link>
+                                </li>
+                                <li>
+                                    <Link to="#!">C'EST LA VIE</Link>
                                 </li>
                             </ul>
 
@@ -121,20 +163,20 @@ export default function Footer() {
                         <div className="col-md-2 ">
 
                             {/* <!-- Links --> */}
-                            <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+                            <p className="font-weight-bold text-uppercase mt-3 mb-4" style={{ color: "white" }}>Social Media</p>
 
                             <ul className="list-unstyled">
                                 <li>
-                                    <a href="#!">Link 1</a>
+                                    <Link to="#!">Facebook</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">Link 2</a>
+                                    <Link to="#!">Twitter</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">Link 3</a>
+                                    <Link to="#!">Instagram</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">Link 4</a>
+                                    <Link to="#!">Youtube</Link>
                                 </li>
                             </ul>
 
@@ -152,7 +194,7 @@ export default function Footer() {
                 </footer>
                 {/* <!-- Footer --> */}
 
-                <div style={{ color: "white", backgroundColor: "#181818", padding: "1rem" }} >
+                <div style={{ color: "white", backgroundColor: "#181818", padding: "1rem", marginBottom: "-1rem" }} >
 
                     <Link to="#" className="navbar-brand fs-6 mx-4"  >
                         About Us
@@ -177,8 +219,8 @@ export default function Footer() {
                     </Link>
 
                 </div>
-            </div>
-        </div>
+            </div >
+        </div >
 
 
     )

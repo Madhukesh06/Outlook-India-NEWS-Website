@@ -19,10 +19,10 @@ export default function Navbar() {
                         }}
                         to="/signin"
                     >
-                        {" "}
-                        SIGNIN{" "}
+
+                        SIGNIN
                     </Link>{" "}
-                    {"|"}{" "}
+                    {"|"}
                     <Link
                         style={{
                             textDecoration: "none",
@@ -41,6 +41,7 @@ export default function Navbar() {
                 className="navbar navbar-expand-lg navbar sticky-top bb-3 "
                 style={{ backgroundColor: "white" }}
             >
+
                 <div className="container-fluid">
                     <button
                         className="navbar-toggler"
@@ -56,46 +57,46 @@ export default function Navbar() {
                     <div className="container">
                         <div style={{ color: "#4F4D4D", fontWeight: "500" }} id="navbarTogglerDemo01">
 
-                            <Link to="#" className="navbar-brand fs-6"  >
+                            <Link to="/" className="navbar-brand fs-6"  >
                                 HOME
                             </Link>
-                            <Link to="#" className="navbar-brand fs-6" >
+                            <Link to="/outlook" className="navbar-brand fs-6" >
                                 OUTLOOK
                             </Link>
-                            <Link to="#" className="navbar-brand fs-6" >
+                            <Link to="/business" className="navbar-brand fs-6" >
                                 BUISNESS
                             </Link>
-                            <Link to="#" className="navbar-brand fs-6" >
+                            <Link to="/money" className="navbar-brand fs-6" >
                                 MONEY
                             </Link>
-                            <Link to="#" className="navbar-brand fs-6" >
+                            <Link to="/bitcoin" className="navbar-brand fs-6" >
                                 CRYPTO CORNER
                             </Link>
-                            <Link to="#" className="navbar-brand fs-6" >
+                            <Link to="/travel" className="navbar-brand fs-6" >
                                 TRAVEL
                             </Link>
-                            <Link to="#" className="navbar-brand fs-6" >
+                            <Link to="/sports" className="navbar-brand fs-6" >
                                 SPORTS
                             </Link>
-                            <Link to="#" className="navbar-brand fs-6" >
+                            <Link to="/videos" className="navbar-brand fs-6" >
                                 VIDEOS
                             </Link>
-                            <Link to="#" className="navbar-brand fs-6" >
+                            <Link to="/entertainment" className="navbar-brand fs-6" >
                                 ENTERTAINMENT
                             </Link>
-                            <Link to="#" className="navbar-brand fs-6" >
+                            <Link to="/photo" className="navbar-brand fs-6" >
                                 PHOTO
                             </Link>
-                            <Link to="#" className="navbar-brand fs-6" >
+                            <Link to="/magazine" className="navbar-brand fs-6" >
                                 MAGAZINE
                             </Link>
-                            <Link to="#" className="navbar-brand fs-6" >
+                            <Link to="/hindi" className="navbar-brand fs-6" >
                                 HINDI
                             </Link>
-                            <Link to="#" className="navbar-brand fs-6" >
+                            <Link to="/others" className="navbar-brand fs-6" >
                                 OTHERS
                             </Link>
-                            <Link to="#" className="navbar-brand fs-6" >
+                            <Link to="/agritech" className="navbar-brand fs-6" >
                                 AGRITECH
                             </Link>
                             <Link to="#" >

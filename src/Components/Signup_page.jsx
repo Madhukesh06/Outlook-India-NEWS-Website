@@ -9,7 +9,7 @@ export default function Login() {
 
     let navigate = useNavigate();
 
-    let handleSubmit = async () => {
+    let handleSubmit = async (event) => {
         event.preventDefault();
         await fetch("https://jsonserver06.herokuapp.com/posts", {
             method: "POST",
