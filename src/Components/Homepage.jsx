@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from "react";
 
 
@@ -20,23 +19,24 @@ export default function Homepage(props) {
 
     return (
         <div>
-            <h1>Hello home page</h1>
-            {loading &&
-                data.map((el) => (
-                    <img key={el.publishedAt} src={el.urlToImage}></img>
-                ))
-            }
+            {/* <h1>Hello home page</h1> */}
+            <div class="row mx-auto">
+                {
+                    data.map((el) => (
+                        // <img key={el.publishedAt} src={el.urlToImage}></img>
 
+                        <div className="card my-3 mx-2" style={{ width: "20rem" }}>
+                            <img key={1} src={el.urlToImage ? el.urlToImage : "https://www.cnet.com/a/img/resize/34dc40dfa975e8fcecb3c2b6e506546ced8fb738/2022/07/22/5528d272-67c8-4671-8a72-f5176116c742/star-system.jpg?auto=webp&fit=crop&height=630&width=1200"} className="card-img-top" alt="..." />
+                            <div key={2} className="card-body">
+                                <h5 key={3} className="card-title">{el.title}</h5>
+                                <p key={4} className="card-text">{el.description}</p>
+                                <a key={5} href="#" className="btn btn-dark">Read More</a>
+                            </div>
+                        </div>
+
+                    ))
+                }
+            </div>
         </div >
     );
-
-    import React from 'react'
-
-    export default function Homepage() {
-        return (
-            <div>
-                <h1>Hello home page</h1>
-            </div>
-        )
-
-    }
+}
