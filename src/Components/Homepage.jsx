@@ -22,7 +22,7 @@ export default function Homepage(props) {
             {/* <h1>Hello home page</h1> */}
             <div class="row mx-auto">
                 {
-                    data.map((el) => (
+                    data && data.map((el) => (
                         // <img key={el.publishedAt} src={el.urlToImage}></img>
 
                         <div className="card my-3 mx-2" style={{ width: "20rem" }}>
