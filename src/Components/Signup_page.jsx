@@ -11,7 +11,7 @@ export default function Login() {
 
     let handleSubmit = async (event) => {
         event.preventDefault();
-        await fetch("https://jsonserver06.herokuapp.com/posts", {
+        await fetch("https://postdata-rest-api.herokuapp.com/post", {
             method: "POST",
             body: JSON.stringify({
                 name: name,

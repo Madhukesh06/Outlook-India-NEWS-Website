@@ -9,7 +9,7 @@ export default function Signup() {
     const [password, setPassword] = useState([]);
 
     let getData = async () => {
-        let res = await fetch("https://jsonserver06.herokuapp.com/posts");
+        let res = await fetch("https://postdata-rest-api.herokuapp.com/post");
         let res_data = await res.json();
         setData(res_data);
     };
