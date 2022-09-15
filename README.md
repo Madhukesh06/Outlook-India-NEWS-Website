@@ -14,6 +14,7 @@ NEWS website Clone
 
 # URL's :
 * Original Website Link : https://www.outlookindia.com/
+* Clone : https://keen-end-1084.vercel.app/
 
 
 # Instructions to run locally
